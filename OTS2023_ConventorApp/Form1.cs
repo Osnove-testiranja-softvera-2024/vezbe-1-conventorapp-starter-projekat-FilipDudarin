@@ -41,7 +41,7 @@ namespace OTS2023_ConventorApp
                 txtBox2.Text = b.ToString();
             }
             else {
-                double a = Convert.ToInt32(txtBox2.Text);
+                double a = Convert.ToInt32(txtBox1.Text);
                 double b = (double)(a * 0.3048);
                 b = Math.Round(b, 3);
                 txtBox2.Text = b.ToString();
